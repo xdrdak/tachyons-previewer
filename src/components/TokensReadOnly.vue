@@ -1,5 +1,6 @@
 <template>
-  <div v-html="rawHtml"></div>
+  <div class="lh-copy measure-wide" v-html="rawHtml">
+  </div>
 </template>
 
 <script>

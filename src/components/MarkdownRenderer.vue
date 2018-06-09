@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <div v-for="(group, i) in tokenGroups" :key="`${i}_${componentName}`">
       <div v-if="group.type === typeReadonly">
         <tokens-read-only :tokens="group.tokens"></tokens-read-only>

@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     <main>
-      <div class="sidebar"><navigation></navigation></div>
+      <div class="sidebar">
+        <navigation></navigation>
+      </div>
       <div class="content mw8 mr-auto ml-auto mv4">
-        <div class="card bg-white pa3 br2">
+        <div class="paper pa3 br2">
           <router-view></router-view>
         </div>
       </div>
@@ -48,30 +50,24 @@ body {
   padding-top: 40px;
 }
 
-header {
-  margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #35495e;
-  color: #ffffff;
-}
-
-header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: 0.02em;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
-}
-
 .bg-steel-grey {
   background: #f5f6f9;
 }
 
-.card {
+.paper {
+  background: white;
   box-shadow: 0 0.4rem 0.8rem -0.1rem rgba(0, 32, 128, 0.1), 0 0 0 1px #f0f2f7;
+}
+
+table {
+  text-align: justify;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  padding: 0.5em;
+  border-bottom: 1px solid #073642;
 }
 </style>

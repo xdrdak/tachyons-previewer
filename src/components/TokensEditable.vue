@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="mb1">
-      <h4 class="dib b pa1 white bg-blue shadow-4 br2 mb2">Preview</h4>
+      <badge class="bg-blue br2 mb2">Preview</badge>
       <!-- Preview output bellow -->
       <div class="pa2 bg-steel-grey br2" v-html="content"></div>
     </div>
     <div>
-      <h4 class="dib b pa1 white bg-hot-pink shadow-4 br2 mb2">&lt;/&gt;</h4>
+      <badge class="bg-hot-pink br2 mb2">&lt;/&gt;</badge>
       <codemirror
         v-model="content"
         :options="cmOption"
@@ -18,10 +18,11 @@
 
 <script>
 import { codemirror } from 'vue-codemirror';
+import Badge from '@/components/BaseBadge';
 
 export default {
   name: 'tokensEditable',
-  components: { codemirror },
+  components: { codemirror, Badge },
   props: ['initialContent'],
   watch: {
     initialContent(newProp) {
