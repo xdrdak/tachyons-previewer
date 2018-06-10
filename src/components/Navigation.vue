@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <ul>
+    <ul class="pl2">
       <li
         v-for="(mapping, i) in componentLinks"
         :key="i"

@@ -1,8 +1,10 @@
 # Alerts
 
-### Bootstrap inspired alerts
+Alert are a very easy thing to do in atomic css.
 
-Notice that the only thing we need to change is the color, and everything else falls in place correctly. Talk about convenient!
+Notice that in the next examples, the only thing we really need to change is the color, and everything else falls in place correctly. Talk about convenient!
+
+### Bootstrap inspired alerts
 
 ```html
 <div role="alert" class="bg-washed-red b--light-red pv3 ph3 br2 ba mb2">
@@ -33,7 +35,7 @@ Notice that the only thing we need to change is the color, and everything else f
 ### Left accent border
 
 ```html
-<div class="bl bw2 b--yellow pl2 bg-light-yellow pv2" role="warning">
+<div class="bl bw2 b--yellow pv2 pl2 bg-light-yellow" role="warning">
   <p class="b">Hey look</p>
   <p>There's some information displayed here.</p>
 </div>
@@ -42,7 +44,7 @@ Notice that the only thing we need to change is the color, and everything else f
 ### Top accent border
 
 ```html
-<div class="bt bw3 b--blue pl2 bg-washed-blue pv2 br1 shadow-1" role="warning">
+<div class="bt bw3 br2 b--blue pl2 pv2 bg-washed-blue shadow-1" role="warning">
   <div class="flex">
     <div class="mr3 ml1 blue b f3 mt2">&#9432;</div>
     <div>

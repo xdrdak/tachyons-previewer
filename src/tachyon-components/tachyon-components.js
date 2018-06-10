@@ -21,7 +21,7 @@ function component(filename, properName) {
 const componentMaps = [
   section('Basic Components'),
   component('button', 'Button'),
-  component('small-profile-card', 'Small Profile Card'),
+  component('cards', 'Cards'),
   component('alerts', 'Alerts'),
 ];
 

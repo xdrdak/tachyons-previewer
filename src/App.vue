@@ -4,7 +4,7 @@
       <div class="sidebar">
         <navigation></navigation>
       </div>
-      <div class="content mw8 mr-auto ml-auto mv4">
+      <div class="content mw8-l mr-auto ml-auto mv4">
         <div class="paper pa3 br2">
           <router-view></router-view>
         </div>
@@ -39,8 +39,6 @@ body {
   left: 0;
   top: 0;
   bottom: 0;
-  max-width: 350px;
-  min-width: 300px;
   height: 100%;
   background: white;
   border-right: 1px solid #f5dae7;
@@ -48,6 +46,19 @@ body {
   color: #fff;
   position: fixed;
   padding-top: 40px;
+  display: none;
+}
+
+@media (min-width: 1140px) {
+  .sidebar {
+    display: block;
+    max-width: 250px;
+    min-width: 200px;
+  }
+}
+
+.content {
+  padding-left: 125px;
 }
 
 .bg-steel-grey {
