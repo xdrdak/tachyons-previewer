@@ -22,6 +22,7 @@ const componentMaps = [
   section('Basic Components'),
   component('button', 'Button'),
   component('small-profile-card', 'Small Profile Card'),
+  component('alerts', 'Alerts'),
 ];
 
 function getWhitelistedComponents() {
