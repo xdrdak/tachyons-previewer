@@ -8,10 +8,9 @@ But, the end result is a much more flexible component.
 
 ### Basic blueprint
 
-This is the most basic blueprint for a button with a background color.
-You'll notice that there's a slight difference between a <code>button</code> tag and an <code>a</code> tag.
+This is the most basic blueprint buttons.
 
-That's because the underlying element has some styling that we need to reset. The following example has what I consider to be the essential reset for buttons.
+You'll notice that there's a slight difference between a <code>button</code> tag and an <code>a</code> tag. That's because the underlying element has some styling that we need to reset. The following example has what I consider to be the essential reset for buttons.
 
 <strong>Note:</strong> in an anchor tag, we use the <code>dib</code> class to ensure proper sizing.
 

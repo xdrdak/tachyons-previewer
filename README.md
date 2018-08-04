@@ -2,6 +2,10 @@
 
 > Live edit tachyon components
 
+## Live preview on
+
+hurried-cause.surge.sh
+
 ## Atomic CSS is pretty cool
 
 I love the idea behind Atomic CSS. Highly reusable classes with little specificity, very little magic and performant to boot? Of course! It's no surprise that we're seeing folks gravitating towards the atomic css principles. It actually works pretty well!
